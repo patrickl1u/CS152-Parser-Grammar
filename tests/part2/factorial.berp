@@ -1,0 +1,16 @@
+fun factorial(number k){
+    if(k <= 1){
+        return 1
+    }
+    return k*factorial(k-1)
+}
+
+
+fun main(){
+    number n
+    number f
+    read(n)
+    f = factorial(n)
+    print(n)
+    return 0
+}

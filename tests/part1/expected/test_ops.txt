@@ -1,0 +1,16 @@
+Ctrl-D to quit. 
+ADD
+SUBTRACT
+ASSIGN
+MULTIPLY
+DIVIDE
+MOD
+INC
+DEC
+LESS
+MORE
+L_EQ
+G_EQ
+N_EQ
+EQ
+quitting...

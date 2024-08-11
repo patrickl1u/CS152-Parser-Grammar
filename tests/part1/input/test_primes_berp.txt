@@ -1,0 +1,40 @@
+fun main(){
+    number n
+    array a 1000
+    number i
+    number j
+    number x
+    number sqrt_n
+    read(n)
+    x = n
+    while(x > n / x){
+        x = (x+n/x)/2
+    }
+    sqrt_n = x
+    ;; initialization of array
+    i = 2
+    while(i <= n){
+        a[i] = 0
+        i = i + 1
+    }
+    ;; make array
+    i = 2
+    while(i <= sqrt_n){
+        if(a[i] == 0){
+            j = i + i
+            while(j <= n){
+                a[j] = 1
+                j = j + i
+            }
+        }
+        i = i + 1
+    }
+    ;; print primes
+    i = 2
+    while(i <= n){
+        if(a[i] == 0){
+            write(i)
+        }
+        i = i + 1
+    }
+}

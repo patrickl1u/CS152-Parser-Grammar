@@ -1,0 +1,20 @@
+fun add(number a, number b){
+    return a + b
+}
+fun mult(number a, number b){
+    return a * b
+}
+fun main(){
+    number a
+    number b
+    number c
+    number d
+    a = 100
+    b = 50
+    ;; should print 150
+    c = add(a, b)
+    write(c)
+    ;; should print "22500", since 22500 = 150 * 150;
+    d = mult(c, a + b)
+    write(d)
+}

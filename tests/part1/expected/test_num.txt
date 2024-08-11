@@ -1,0 +1,6 @@
+Ctrl-D to quit. 
+NUMBER 99
+NUMBER 102
+NUMBER 3
+NUMBER 10294
+quitting...

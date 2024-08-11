@@ -1,0 +1,6 @@
+src/lex.yy.c
+src/berp-l
+tests/part1/output/*
+src/parser.tab.c
+src/parser.tab.h
+src/parser.output

@@ -1,0 +1,14 @@
+fun main(){
+    number m
+    number n
+    number o
+    read(n)
+    if(n >= 100){
+        write(n)
+    }
+    else{
+        m = n - 1
+        write(m)
+    }
+    write(o)
+}

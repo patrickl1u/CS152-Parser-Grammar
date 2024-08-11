@@ -1,0 +1,23 @@
+function factorial;
+beginparams
+  k : integer;
+endparams
+beginlocals
+endlocals
+beginbody
+  if k <= 1 then return 1; endif;
+  return k * factorial(k-1);
+endbody
+
+function main;
+beginparams
+endparams
+beginlocals
+  n : integer;
+  fac : integer;
+endlocals
+beginbody
+  read n;
+  fac := factorial(n);
+  write fac;
+endbody

@@ -1,0 +1,12 @@
+fun main(){
+    number i = 0
+    number j = 0
+    while(i < 2){
+        j = 1
+        while (j <= 3){
+            write(j)
+            j++
+        }
+        i++      
+    }
+}

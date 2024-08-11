@@ -1,0 +1,12 @@
+fun main(){
+    number a = 100
+    number b = 50
+    number c
+    if(a < b){
+        c = b
+    }
+    else{
+        c = a
+    }
+    write(c) ;; This should print out 100
+}

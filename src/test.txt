@@ -1,0 +1,12 @@
+fun main(){
+    number i = 20
+    number j = 0
+    while(i > 10){
+        while(j < 10) {
+            j++
+            write(j)
+        }
+        write(i)
+        i--
+    }
+}

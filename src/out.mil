@@ -1,0 +1,20 @@
+func main
+. m
+. n
+. o
+.< n
+. _temp0
+<= _temp0, n, 100
+?:= _label0, _temp0
+:= _label1
+: _label0
+.> n
+:= _label2
+: _label1
+. _temp1
+- _temp1, n, 1
+= m, _temp1
+.> m
+: _label2
+.> o
+endfunc

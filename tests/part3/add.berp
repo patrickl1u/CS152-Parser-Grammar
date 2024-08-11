@@ -1,0 +1,9 @@
+fun main(){
+    number a
+    number b
+    number c
+    a = 100
+    b = 50
+    c = a + b
+    write(c)
+}

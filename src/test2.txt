@@ -1,0 +1,12 @@
+fun testfunc(number k, number j){
+
+    while(k < 0){
+        k = 1
+        while(k <= 0){
+        }
+    }
+    return 0
+}
+fun main(number i){
+    return 0
+}

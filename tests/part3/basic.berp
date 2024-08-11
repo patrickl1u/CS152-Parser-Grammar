@@ -1,0 +1,4 @@
+fun main(){
+    number a = 150
+    write(a)
+}

@@ -1,0 +1,31 @@
+fun add(number k $ number j){
+    number l
+    l = k + j
+    return l
+}
+fun main(){
+    number n[7]
+    number ijk
+    number cmd
+    number comp
+    comp = 4
+    ijk = 0
+    ;; populates array with respective index number 
+    while (ijk < 7) {
+        n[ijk] = ijk
+        ++ijk
+    }
+    ijk = 0
+    while (ijk < 7) {
+        if (n[ijk] == 1) {
+            write(1)
+        }
+        elif (n[ijk] >= comp) {
+            read(cmd)
+        }
+        else {
+            n[ijk] = add(comp$ cmd)
+        }
+        ++ijk
+    }
+}
